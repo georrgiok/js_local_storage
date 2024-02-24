@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+
+  background: rgb(237, 227, 227);
+  max-width: 50vw;
+  min-height: 100vh;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+}
+.h1{
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+}
+.container>*{
+  width: 100%;
+}
+.input__text {
+  font-size: 14px;
+    height: 50px;
+  border-bottom: 1px solid #9b3636;
+  padding: 0 10px;
+  }
+
+.form__submit-btn {
+  font-size: 0.8em;
+  width: 150px;
+  height: 50px;
+  background-color: #9cff83;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.block {
+  margin-top: 60px;
+  border-radius: 3px;
+}
+
+.product-list {
+  margin-bottom: 20px;
+}
+
+.product-list h2 {
+  cursor: pointer;
+}
+
+
+.review h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.review p {
+  margin-bottom: 10px;
+}
+.review {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.delete-button {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid red;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+.delete-button:hover {
+  transition: 1s ease-in-out;
+  background: rgb(37, 11, 11);
+}
+
+.review h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.review p {
+  margin-bottom: 10px;
+}
+
+
+
+
